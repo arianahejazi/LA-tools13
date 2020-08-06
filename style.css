@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 :root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
@@ -30,7 +23,6 @@
 }
  *:focus{
     outline: none!important;
-
 }
   #wrapper{
     background: var(--light-gray-10)!important;
@@ -46,6 +38,17 @@
     cursor: pointer!important;
     border-radius: 3px!important;
     font-size: 15px!important;
+}
+
+#solutions span{
+    color:var(--gray) !important;
+}
+
+.solutionhintButton{
+        color: var(--light-blue)!important;
+}
+.solutions li {
+    padding-top: 8px!important;
 }
 
 .correct {
@@ -128,4 +131,4 @@
       background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
       background: linear-gradient(to bottom, var(--white),var(--black));
   }
- 
+  
