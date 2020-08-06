@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 :root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
@@ -32,8 +39,8 @@
     background: var(--light-gray-10)!important;
 }
   .filled {
-    -moz-box-shadow: 0 0 1px #888!important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     border: 1px solid #d2d2d2!important;
     background: #ffff !important;
     cursor: pointer!important;
@@ -118,7 +125,7 @@
           -ms-user-select: none;
               user-select: none;
       background: -o-linear-gradient(top, var(--white),var(--black));
-      background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+      background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
       background: linear-gradient(to bottom, var(--white),var(--black));
   }
-  
+ 
