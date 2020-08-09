@@ -48,7 +48,7 @@
 }
 
 #solutions li span {
-  color: var(--gray)!important;
+  color: var(--gray);
 }
 
 .correct {
