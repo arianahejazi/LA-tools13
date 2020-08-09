@@ -18,7 +18,7 @@
   --red:#fd7a91;
 }
 body , *{
-  font-family: monospace!important;
+  font-family: sans-serif !important;
   outline: none!important;
 }
 *:focus{
