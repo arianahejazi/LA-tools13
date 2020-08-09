@@ -47,6 +47,10 @@
     padding-top: 8px!important;
 }
 
+#solutions li span {
+  color: var(--gray)!important;
+}
+
 .correct {
     background: var(--light-green) !important;
 }
