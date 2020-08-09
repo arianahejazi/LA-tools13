@@ -40,10 +40,6 @@
     font-size: 15px!important;
 }
 
-#solutions span{
-    color:var(--gray) !important;
-}
-
 .solutionhintButton{
         color: var(--light-blue)!important;
 }
