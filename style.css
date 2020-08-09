@@ -72,6 +72,10 @@
   #checkSolutionBtn:hover{
     opacity: 0.7!important;
   }
+
+   td{
+       color: var(--light-black)!important;
+    }
   
   /* meseage */
   #AppClientTaskPanel{
