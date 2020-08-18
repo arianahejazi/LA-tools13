@@ -27,6 +27,9 @@ body , *{
 #wrapper{
   background: var(--light-gray-10)!important;
 }
+#k{
+  margin: 30px 0!important;
+}
 table {
   background: var(--light-gray-10)!important;
 }
